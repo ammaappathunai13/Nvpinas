@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vjsm.sports.nvpinas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login_Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".New_Registration_Login" />
+        <activity
+            android:name=".HomePage_Loader"
+            android:label="@string/title_activity_home_page__loader"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Codeverification" />
+        <activity
+            android:name=".Home_Bottom_Fragment"
+            android:label="@string/title_activity_home__bottom__fragment" />
+        <activity android:name=".Timeline_Upload"></activity>
+    </application>
+
+</manifest>

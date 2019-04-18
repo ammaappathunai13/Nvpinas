@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Nvpinas</string>
+
+
+    ///shared preference
+
+
+    <string name="UserId">com.vjsm.sports.nvpinas.UserId</string>
+    <string name="Password">com.vjsm.sports.nvpinas.Password</string>
+    <string name="Language">com.vjsm.sports.nvpinas.Language</string>
+    <string name="LoginUserName">com.vjsm.sports.nvpinas.UserName</string>
+    <string name="LoginUser_PhoneNumber">com.vjsm.sports.nvpinas.PhoneNumber</string>
+    <string name="title_activity_home_page__loader">HomePage_Loader</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home__bottom__fragment">Home_Bottom_Fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>

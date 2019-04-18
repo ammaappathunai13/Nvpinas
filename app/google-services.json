@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365999120870",
+    "firebase_url": "https://nvp-ins.firebaseio.com",
+    "project_id": "nvp-ins",
+    "storage_bucket": "nvp-ins.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365999120870:android:40228a8646e524ce",
+        "android_client_info": {
+          "package_name": "com.vjsm.sports.nvpinas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365999120870-qcn6cb54ttmeam5l0j3eavrns661oc1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vjsm.sports.nvpinas",
+            "certificate_hash": "d641b4a8bd4897aa63d7d56785dccc0ab6afb032"
+          }
+        },
+        {
+          "client_id": "365999120870-vp455261nn0r7sfb3gcmcs7m5khb8vc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7W7VaqCid193azeU1A5k-0Lw-Pj8Q2oM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365999120870-vp455261nn0r7sfb3gcmcs7m5khb8vc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

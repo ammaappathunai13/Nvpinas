@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/dark_gray"
+    android:layout_height="match_parent"
+    tools:context=".Login_Page">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <ImageView
+
+          android:background="@drawable/nvp"
+          android:layout_width="match_parent"
+          android:alpha=".4"
+          android:layout_height="match_parent" />
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <LinearLayout
+              android:orientation="vertical"
+              android:padding="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TextView
+                  android:layout_width="match_parent"
+                  android:gravity="center"
+                  android:layout_marginTop="0dp"
+                  android:text="சரிபார்ப்பு மற்றும் உள்நுழைவு"
+                  android:textSize="20dp"
+                  android:textStyle="bold"
+                  android:textColor="@color/orange_300"              android:layout_height="wrap_content" />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:gravity="center"
+                  android:layout_marginTop="10dp"
+                  android:text="Verificaton And Login"
+                  android:textSize="20dp"
+                  android:textStyle="bold"
+                  android:textColor="@color/orange_300"
+                  android:layout_height="wrap_content" />
+
+              <EditText
+
+                  android:id="@+id/username"
+
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="5dip"
+                  android:layout_marginTop="30dp"
+                  android:background="@drawable/round_corner"
+                  android:gravity="center"
+
+                  android:inputType="textPersonName"
+                  android:hint="பயனர் ஐடி(User Id)"
+                  />
+
+              <EditText
+                  android:id="@+id/password"
+
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:padding="5dip"
+                  android:layout_marginTop="15dp"
+                  android:background="@drawable/round_corner"
+                  android:gravity="center"
+                  android:hint="கடவுச்சொல்(Password)"
+                  android:inputType="textPassword"/>
+
+              <Button
+                  android:id="@+id/login"
+
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="40dp"
+                  android:background="@drawable/button_roundcorner"
+                  android:gravity="center"
+                  android:layout_marginLeft="30dp"
+                  android:layout_marginRight="30dp"
+                  android:padding="20dp"
+                  android:textStyle="bold"
+                  android:text="உள்நுழைக(LOGIN)" />
+
+              <TextView
+                  android:id="@+id/newuser"
+                  android:layout_width="match_parent"
+                  android:textStyle="bold"
+                  android:textColor="@color/white"
+                  android:padding="4dp"
+                  android:layout_marginLeft="20dp"
+                  android:textSize="15dp"
+                  android:text="புதிய பயனரா? பதிவு செய்க."                  android:layout_marginTop="30dp"
+                  android:layout_height="wrap_content" />
+              <TextView
+                  android:id="@+id/newuser1"
+
+                  android:layout_width="match_parent"
+                  android:textStyle="bold"
+                  android:textColor="@color/white"
+                  android:layout_marginLeft="20dp"
+                  android:textSize="15dp"
+                  android:text="(New User? Click here.)"                  android:layout_height="wrap_content" />
+
+          </LinearLayout>
+
+
+
+      </ScrollView>
+
+  </RelativeLayout>
+
+</LinearLayout>
